@@ -1,0 +1,15 @@
+version: "3.1"
+
+stories:
+
+
+
+- story: Tour
+  steps:
+  - intent: ask_travel_locations
+  - action: return_locations
+  - intent: give_location
+  - action: cost_check
+  
+
+
