@@ -62,7 +62,7 @@ class Cost(Action):
         else:
             location = value
         if location in location_db:
-            dispatcher.utter_message(text="The cost for this location travel is "+ str(location_db[location]+" per day"))
+            dispatcher.utter_message(text="The cost for this location travel is "+ str(location_db[location]) +" per day")
 
         else:
             dispatcher.utter_message(text="we dont provide travel to this location. The locations we provide are "+ locations)
